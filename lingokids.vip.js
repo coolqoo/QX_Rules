@@ -2,7 +2,7 @@ var obj = JSON.parse($response.body);
 
 obj["info"]["subscriptions"]= [
       {
-        "status": "trial",
+        "status": "active",
         "product": "unlimited",
         "duration_unit": "months",
         "id": 3690701,
@@ -10,7 +10,7 @@ obj["info"]["subscriptions"]= [
         "platform": "apple",
         "starts_at": 1658849749,
         "duration_value": 1,
-        "ends_at": 1659454548,
+        "ends_at": 4099821292,
         "auto_renew_status": true,
         "plan_id": "lk.ios.s1m.t7d.p15.v2"
       }];
