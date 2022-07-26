@@ -14,6 +14,7 @@ obj["info"]["subscriptions"]= [
         "auto_renew_status": true,
         "plan_id": "lk.ios.s1m.t7d.p15.v2"
       }];
+obj["info"]["customer"]= true;
 
 $done({body: JSON.stringify(obj)});
 
