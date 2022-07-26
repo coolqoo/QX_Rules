@@ -2,7 +2,7 @@ var obj = JSON.parse($response.body);
 
 obj["info"]["subscriptions"]= [
       {
-        "status": "active",
+        "status": "trial",
         "product": "unlimited",
         "duration_unit": "months",
         "id": 3690701,
